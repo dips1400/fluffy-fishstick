@@ -1,0 +1,86 @@
+.div1{
+    background-color: aquamarine;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-hand-wave{
+    color: #333;
+    margin-left: 200px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    color: #333;
+    background-color: aqua;
+    text-align: center;
+    font-size: 115px;
+    padding-top: 27px;
+    transform: translateX(30px);
+    animation: mybox;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+}
+
+#box1:hover{
+    /*transform: translateX(90px);*/
+    background-color: #333;
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    /*flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;*/
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #b5b5b5;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5%;
+}
+/*
+.box2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    position: absolute;
+    left: 250px;
+    margin: 20px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    position: absolute;
+    margin: 20px;
+    padding: 10px;
+    left: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/
+
+#new{
+    color: #333;
+}
+@keyframes mybox {
+    from{margin-left: 70%;}
+    to{margin-left: 0%;}
+}
